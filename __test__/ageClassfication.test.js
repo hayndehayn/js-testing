@@ -1,4 +1,4 @@
-const ageClassification = require('./ageClassification');
+const ageClassification = require('../ageClassification');
 
 test('Correctly classified age', () => {
     expect(ageClassification(0)).toBe('Дитинство');
